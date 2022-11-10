@@ -88,7 +88,6 @@ a{
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
-  position: relative;
 }
 .link-copy{
  width: 70%;
@@ -113,8 +112,6 @@ a{
   margin-left: 10px;
 }
 .copy-msg{
-  position: absolute;
-  right: 0;
   color: #178e6c;
   font-size: 12px;
 }

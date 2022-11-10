@@ -88,7 +88,6 @@ a{
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
-  position: relative;
 }
 .link-copy{
  width: 70%;
@@ -104,7 +103,6 @@ a{
 .btm-btn{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 10px;
 }
 .alw-acs{
@@ -113,24 +111,15 @@ a{
   margin-left: 10px;
 }
 .copy-msg{
-  position: absolute;
-  right: 0;
   color: #178e6c;
-  font-size: 12px;
 }
 @media(max-width: 800px){
   .modal{
-    width: 90%;
-  }
-  .modal-content {
-    padding: 10px;
+    width: 80%;
   }
   .btn-div {
     margin: 50% auto 0;
     width: 50%;
-  }
-    .alw-acs{
-    margin-left: 5px;
   }
 
 }

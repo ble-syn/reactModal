@@ -31,18 +31,18 @@ function Modal({openModal, showModal}) {
           </p>
           <div className="copy-cont content">
             <input className="link-copy" value="app.untitledui.com/integrations/intercom"  />
-            <div>
+          ]
               
             <button onClick={copyToClipboard} className="btn cen-item"> <span><FiCopy /></span> Copy link</button>
             {copy ? <span className="copy-msg">Copied!!</span> : null}
-            </div>
+           
             
           </div>
 
           <div className="content">
             <h3>Untitled would like to</h3>
             <p className="cen-item"> <span><BsCheckCircle className="green" /></span> Access basic company information and details</p>
-            <p className="cen-item"> <span><BsCheckCircle className="green" /></span> Access and edit bug report and create new issues</p>
+            <p className="cen-item"> <span><BsCheckCircle className="green" /></span> Access and edit bug report and cfeate new issues</p>
             <p className="cen-item"> <span><BsCheckCircle className="green" /></span> Change issue status and assignee of issues</p>
             <p className="cen-item"> <span><BsCheckCircle className="green" /></span> Open and resolve intercom conversations</p>
             <p className="cen-item"> <span><BsCheckCircle className="green" /></span> Add or remove users and change user roles</p>

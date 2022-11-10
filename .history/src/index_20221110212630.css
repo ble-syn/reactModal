@@ -28,13 +28,13 @@ a{
   border: 1px solid #ccc;
   font-size: 16px;
   border-radius: 5px;
-  font-size: 14px;
 }
 
 .btn-div {
   width: 20%;
   margin: 25% auto 0;
   text-align: center;
+
 }
 
 .modal{
@@ -44,7 +44,7 @@ a{
   border-radius: 5px;
   z-index: 1;
   color: #333; 
-  width: 46%;
+  width: 40%;
 
 }
 .modal-content {
@@ -88,7 +88,6 @@ a{
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
-  position: relative;
 }
 .link-copy{
  width: 70%;
@@ -104,33 +103,10 @@ a{
 .btm-btn{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 10px;
 }
 .alw-acs{
   color: #fff;
   background-color:#000;
   margin-left: 10px;
-}
-.copy-msg{
-  position: absolute;
-  right: 0;
-  color: #178e6c;
-  font-size: 12px;
-}
-@media(max-width: 800px){
-  .modal{
-    width: 90%;
-  }
-  .modal-content {
-    padding: 10px;
-  }
-  .btn-div {
-    margin: 50% auto 0;
-    width: 50%;
-  }
-    .alw-acs{
-    margin-left: 5px;
-  }
-
 }
