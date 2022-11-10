@@ -1,13 +1,112 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #ddd; 
+}
+span{
+  margin-right: 5px;
+}
+a{
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.btn{
+  cursor: pointer;
+  padding: 10px;
+  background: none;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-div {
+  width: 20%;
+  margin: 25% auto 0;
+  text-align: center;
+
+}
+
+.modal{
+  position: absolute;
+  top: 10%;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 1;
+  color: #333; 
+  width: 40%;
+
+}
+.modal-content {
+  padding: 20px 30px;
+  font-size: 16px;
+}
+.center{
+  text-align: center;
+}
+.content {
+  padding: 10px 0;
+}
+.content p {
+  margin: 20px 0;
+  color: #333;
+}
+.icon-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.icon{
+  font-size: 50px;
+  color: #f494d1;
+  margin-bottom: 10px;
+  margin: 20px;
+}
+.purple{
+  color: #d695df;
+}
+.grey{
+  color: #666;
+}
+.green{
+  color: #178e6c;
+}
+
+.copy-cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.link-copy{
+ width: 70%;
+ padding: 10px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+ font-size: 16px;
+}
+.cen-item{
+  display: flex;
+  align-items: center;
+}
+.btm-btn{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.alw-acs{
+  color: #fff;
+  background-color:#000;
+  margin-left: 10px;
 }
