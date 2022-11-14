@@ -1,3 +1,3 @@
 # Modal
 
-Popup modal created with react [Live](https://github.com/facebook/create-react-app).
+Popup modal created with react [Live](https://react-modall.vercel.app/).
